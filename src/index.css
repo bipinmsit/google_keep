@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    background-color: peru;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+}
+
+.mainNote {
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.note {
+    width: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    border: 1px solid red;
+    box-shadow: 4px 4px blueviolet;
+}
+.demo1 {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid orchid;
+    margin-bottom: 10px;
+}
+.demo2 {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid orchid;
+}
