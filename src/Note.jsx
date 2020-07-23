@@ -10,7 +10,7 @@ const Note = (props) => {
         <div className="note">
             <h2 style={{marginBottom:0}}> {props.title} </h2> <br />
             <p> {props.content} </p>
-            <button 
+            <button className="btn"
             onClick={deleteNote} > <DeleteOutlineIcon /> </button>
         </div>
         </>

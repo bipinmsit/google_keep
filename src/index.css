@@ -18,13 +18,8 @@ footer {
     margin: 0 auto;
     margin-bottom: 50px;
 }
-.note {
-    width: 250px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    border: 1px solid red;
-    box-shadow: 4px 4px blueviolet;
+.mainNote .btn:hover {
+    color: green;
 }
 .demo1 {
     margin-top: 10px;
@@ -37,4 +32,32 @@ footer {
     border: none;
     outline: none;
     border-bottom: 1px solid orchid;
+}
+
+.note .btn {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    width: 50px;
+    height: 5ppx;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.note .btn:hover {
+    color: red;
+}
+
+.note {
+    float: left;
+    width: 200px;
+    outline-color: grey;
+}
+.note h2 {
+    word-wrap: break-word;
+}
+.note p {
+    word-wrap: break-word;
 }
